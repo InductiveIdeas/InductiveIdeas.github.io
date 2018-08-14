@@ -1,0 +1,343 @@
+/* ==========================================================================
+   Site wide CSS following BEM conventions
+   ========================================================================== */
+/* ==========================================================================
+   header
+   ========================================================================== */
+body {
+  font-family: "Titillium Web", sans-serif;
+  color: #34404b; }
+
+a {
+  color: #34404b; }
+
+a:hover {
+  color: #ff6e30; }
+
+.header--contact li, .header--social li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  margin-bottom: 0; }
+
+.header--contact {
+  margin-bottom: 0px;
+  margin-top: 10px; }
+
+.header--contact li {
+  margin-right: 20px; }
+
+.header--contact li i {
+  color: #ff6e30; }
+
+.header--social li {
+  color: #34404b;
+  float: right; }
+
+.border {
+  border-top: 1px solid #34404b;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  opacity: 0.1; }
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+.smallShow {
+  display: none; }
+
+.mobileSocial, .mobileContact {
+  display: none; }
+
+.nav__wrapper {
+  padding: 20px; }
+
+#logoBtn {
+  background-color: #34404b;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer; }
+
+.nav--main li, .nav--cart li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px; }
+
+.nav--main {
+  margin-bottom: 0px;
+  margin-top: 5px; }
+
+.nav--main li:hover, .nav--cart li:hover {
+  color: #ff6e30;
+  cursor: pointer; }
+
+.nav--cart {
+  float: right;
+  font-size: 20px; }
+
+#basketCount::before {
+  position: absolute;
+  z-index: -1; }
+
+#basketCount {
+  margin-top: -10px;
+  position: absolute; }
+
+#basketCountTxt {
+  color: white;
+  padding-left: 6px;
+  font-size: 16px; }
+
+/* ==========================================================================
+   product highlight
+   ========================================================================== */
+.main__wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+#largeProduct img {
+  display: block;
+  margin: 0 auto; }
+
+.product__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff6e30; }
+
+.product__highlights {
+  font-weight: bold; }
+
+.product__description {
+  line-height: 38px; }
+
+.product__border {
+  border-top: 1px solid #34404b;
+  opacity: 0.1;
+  width: 100%; }
+
+.product_optionsWrapper {
+  padding: 30px 0px 30px 0px; }
+
+.product--optionText {
+  font-size: 18px; }
+
+.product--sizes {
+  font-size: 13px; }
+
+.product--sizeSelected {
+  font-size: 18px;
+  color: #ff6e30;
+  font-weight: bold; }
+
+.product--count {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ff6e30; }
+
+.product__actions {
+  padding-top: 30px; }
+
+.product--price {
+  font-weight: 900;
+  font: "Titillium Web", sans-serif;
+  font-size: 18px; }
+
+.product--icons li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px; }
+
+.product--icons {
+  float: right;
+  font-size: 20px;
+  margin-top: 5px; }
+
+.product--buy button {
+  background: #ff6e30;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  cursor: pointer; }
+
+.product--slideThumbs {
+  margin-top: 30px; }
+
+.product--thumb {
+  background: lightgray;
+  padding: 12px 6px 8px 7px;
+  box-sizing: border-box;
+  position: relative; }
+
+.selected--thumb--color {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 89, 18, 0.8); }
+
+.selected--thumb--img {
+  opacity: .6; }
+
+/* ==========================================================================
+   related products
+   ========================================================================== */
+.related__titleDescription {
+  text-align: center;
+  margin-top: 150px; }
+
+.related--h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.backgroundBar-gray, .backgroundBar--white {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1; }
+
+.backgroundBar-gray {
+  height: 900px;
+  background: #f4f6f8; }
+
+.related__productBoxes {
+  margin-top: 50px; }
+
+.related__product {
+  background: white;
+  text-align: center;
+  padding: 30px 40px 0px 40px;
+  cursor: pointer; }
+
+.related__product img {
+  margin-bottom: 20px; }
+
+.related__product p {
+  color: #ff6e30;
+  font-weight: bold; }
+
+.related__product h4 {
+  font-size: 1rem;
+  font-weight: 500; }
+
+/* ==========================================================================
+   newsletter
+   ========================================================================== */
+.newsletter_wrapper {
+  background: white;
+  width: 100%;
+  margin-top: 100px;
+  padding: 40px 40px 20px 40px;
+  margin-bottom: 150px; }
+
+.newsletter--title {
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 20px;
+  color: #ff6e30;
+  font-weight: 700; }
+
+.newsletter--description {
+  font-style: italic; }
+
+.newsletter--input input {
+  border: none;
+  margin-left: 10px; }
+
+.newsletter--input input::placeholder {
+  color: #34404b; }
+
+.newsletter--submit button {
+  padding: 15px 25px 15px 25px;
+  font-size: 14px;
+  margin-top: -10px;
+  background: #ff6e30;
+  color: white;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+  cursor: pointer; }
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+footer {
+  padding-top: 70px; }
+
+.backgroundBar--white {
+  background: white;
+  height: 400px; }
+
+.paymentMethods {
+  color: #ff6e30;
+  font-weight: bold; }
+
+/* ==========================================================================
+   responsive tweaks
+   ========================================================================== */
+@media screen and (max-width: 640px) {
+  .smallHide {
+    display: none; }
+  .mobileSocial {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px; }
+  .mobileContact {
+    display: block;
+    font-size: 30px;
+    text-align: center; }
+  .smallShow {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #ff6e30;
+    padding: 15px; }
+  .smallShow .nav--cart {
+    margin: 0; }
+  .smallShow .nav--cart li:hover {
+    color: white; }
+  .smallShow .nav--cart .nav--main li {
+    display: block; }
+  #logoBtn {
+    margin-top: 8vh; }
+  .nav--main li {
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 24px;
+    font-weight: bold; }
+  #basketCountTxt {
+    padding-left: 6px; }
+  .product_optionsWrapper, .product__actions, .newsletter--title {
+    text-align: center; }
+  .product--icons, .product--buy button {
+    float: none; }
+  .newsletter--submit button {
+    float: none;
+    margin: 0 auto;
+    display: block; }
+  .newsletter--input {
+    margin-bottom: 30px; }
+  .newsletter--input input {
+    height: 60px; }
+  .related__product {
+    margin-bottom: 10px; }
+  .backgroundBar-gray {
+    height: 2000px; } }
+
+@media screen and (min-width: 641px) and (max-width: 870px) {
+  .nav--main {
+    margin-left: 40px;
+    font-size: 14px; }
+  .nav--cart {
+    font-size: 16px; }
+  .newsletter--input input {
+    border-bottom: 1px solid #34404b; } }

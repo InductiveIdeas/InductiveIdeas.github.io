@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>FULL WINTER KIT - COMPANY</title>
+        <meta name="description" content="Text about some kind of full winter kit here">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,700,900" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/css/foundation.min.css" integrity="sha256-iJQ8dZac/jUYHxiEnZJsyVpKcdq2sQvdA7t02QFmp30= sha384-SplqNBo/0ZlvSdwrP/riIPDozO5ck8+yIm++KVqyMAC53S6m3BaV+2OLpi7ULOOh sha512-ho6hK4sAWdCeqopNZWNy1d9Ok2hzfTLQLcGSr8ZlRzDzh6tNHkVoqSl6wgLsqls3yazwiG9H9dBCtSfPuiLRCQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css_build/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <div class="grid-container" id="app">      
+		
+		<header class="grid-x smallHide">
+				<div class="cell medium-8 small-12">
+					<ul class=" header--contact">
+						<li><a href="mailto:info@shopy.com"><i class="far fa-envelope"></i> info@shopy.com</a></li>
+						<li><a href="tel:453-555-3996"><img src="./img/icons/phone.png" style="width: 15px;margin-top: -5px;"/> 453-555-3996</li>
+					</ul>
+				</div> <!-- /small-6 -->
+				<div class="cell medium-4">
+					<ul class="header--social">
+						<!-- floating right so order opposite of mockup -->
+						<li><a href="https://www.instagram.com" target="_blank" title="Connect with Company on Instagram"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://plus.google.com" target="_blank" title="Connect with Company on Google Plus"><i class="fab fa-google-plus-g"></i></a></li>
+						<li><a href="https://www.twitter.com" target="_blank" title="Connect with Company on Twitter"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com" target="_blank" title="Connect with Company on Facebook"><i class="fab fa-facebook-f"></i></a></li>
+					</ul>
+				</div> <!-- /small-6 -->
+		</header>
+		<div class="border"></div>
+		<nav class="grid-x nav__wrapper">
+			<div class="cell medium-1 small-6">
+				<a href="https://www.example.com"><button id="logoBtn">LOGO</button></a>
+				<div class="mobileSocial">
+					<a href="https://www.facebook.com" target="_blank" title="Connect with Company on Facebook"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.twitter.com" target="_blank" title="Connect with Company on Twitter"><i class="fab fa-twitter"></i></a>
+					<a href="https://plus.google.com" target="_blank" title="Connect with Company on Google Plus"><i class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.instagram.com" target="_blank" title="Connect with Company on Instagram"><i class="fab fa-instagram"></i></a> 
+				</div> <!-- /mobile social links -->
+			</div>
+			<div class="cell medium-8 small-6">
+				<ul class="nav--main">
+					<li>Home</li>
+					<li>Products</li>
+					<li>Hot Deals</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="cell medium-3 smallHide">
+				<ul class="nav--cart">
+				<li><i class="fas fa-search"></i></li>
+				<li><i class="far fa-user"></i></li>
+				<li><i id="basketCount" class="fas fa-circle"><span id="basketCountTxt">{{count}}</span></i><i class="fas fa-shopping-basket"></i></li>
+				</ul>
+			</div>
+			<div class="smallShow">
+				<ul class="nav--cart">
+				<li><i class="fas fa-search"></i></li>
+				<li><i class="far fa-user"></i></li>
+				<li><i id="basketCount" class="fas fa-circle"><span id="basketCountTxt">{{count}}</span></i><i class="fas fa-shopping-basket"></i></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="border"></div>
+		<main class="grid-x main__wrapper">
+			<div class="cell medium-1"></div>
+			<div class="cell medium-5" id="largeProduct">
+				<img src="./img/products/product_1.png" />
+				<div class="grid-x product--slideThumbs">
+					<div class="cell medium-8 medium-offset-2">
+						<div class="grid-x grid-margin-x">
+					<div class="product--thumb cell auto"><img src="./img/products/product_1_thumb.png" /></div>
+					<div class="product--thumb cell auto"><img src="./img/products/product_2_thumb.png" /></div>
+					<div class="product--thumb selected--thumb--color cell auto"><img class="selected--thumb--img" src="./img/products/product_3_thumb.png" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cell medium-6 product__wrapper">
+				<h1 class="product__title">Full Winter Kit</h1>
+				<p class="product__highlights">Half Jacket + Skinny Trousers + Boot leather</p>
+				<p class="product__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisl quam. Ut leo tellus, tristique a ultricies sed, pulvinar a lacus. Nunc faucibus, odio sed aliquet aliquet.</p>
+				<div class="product__border"></div>
+				<div class="product_optionsWrapper grid-x">
+					<div class="cell medium-6">
+						<div class="grid-x">
+							<div class="cell medium-5 small-12 product--optionText">Choose Size</div>
+							<div class="cell medium-7 product--sizes">S - M - <span class="product--sizeSelected">L</span> - XL</div>
+						</div>
+					</div>
+					<div class="cell medium-6">
+						<div class="grid-x">
+							<div class="cell medium-6 product--optionText">Choose Quantity</div>
+							<div class="cell medium-6 product--sizes">
+								<a><i class="fas fa-plus" @click="total('add')"></i></a>
+								<span class="product--count">{{count}}</span>
+								<a><i class="fas fa-minus" @click="total('sub')"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product__border"></div>
+				<div class="grid-x product__actions">
+					<div class="product--price medium-3 small-12">Price: ${{getTotal}}</div>
+					<div class="medium-6 small-12">
+						<ul class="product--icons">
+							<li><a><i class="far fa-heart"></i></a></li>
+							<li><a><i class="fas fa-cart-plus"></i></a></li>
+							<li><a><i class="fas fa-globe"></i></a></li>
+						</ul>
+					</div>
+					<div class="product--buy medium-3 small-12">
+						<button>Order Now</button>
+					</div>
+					
+				</div>
+			</div> <!-- /medium-6 product content -->
+		</main>
+		<div class="backgroundBar-gray"></div>
+		<section>
+			<div class="grid-x related__titleDescription">
+				<div class="cell medium-12">
+					<h2 class="related--h2">Related Products</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+			<div class="grid-x grid-margin-x related__productBoxes">
+				<div class="related__product cell medium-auto ">
+					<img src="./img/products/related_1.png"/>
+					<h4>Reebok Track Jacket</h4>
+					<p>$100</p>
+				</div>
+				<div class="related__product cell medium-auto ">
+					<img src="./img/products/related_2.png"/>
+					<h4>Reebok Track Jacket</h4>
+					<p>$100</p>
+				</div>
+				<div class="related__product cell medium-auto ">
+					<img src="./img/products/related_3.png"/>
+					<h4>Reebok Track Jacket</h4>
+					<p>$100</p>
+				</div>
+				<div class="related__product cell medium-auto ">
+					<img src="./img/products/related_1.png"/>
+					<h4>Reebok Track Jacket</h4>
+					<p>$100</p>
+				</div>
+			</div>
+			<div class="grid-x newsletter_wrapper">
+				<div class="cell medium-shrink newsletter--title">Newsletter</div>
+				<div class="cell medium-auto small-12 newsletter--description">join us now to get all news and special offers</div>
+				<div class="cell medium-4 small-12 newsletter--input">
+					<i class="far fa-envelope"></i> <input placeholder="type your email here" />
+				</div>
+				<div class="cell medium-1 small-12 newsletter--submit"><button type="submit" onclick="doNothing()">join us</button></div>
+			</div>
+		</section>
+		<div class="backgroundBar--white"></div>
+		<footer>
+			<div class="mobileContact">
+				<a href="mailto:info@shopy.com"><i class="far fa-envelope"></i> info@shopy.com</a>
+				<br/>
+				<a href="tel:453-555-3996"><img src="./img/icons/phone.png" style="width: 15px;margin-top: -5px;"/> 453-555-3996
+			</div>
+			<div class="grid-x">
+				<div class="cell medium-1"><a href="https://www.example.com"><button id="logoBtn">LOGO</button></a></div>
+				<div class="cell medium-offset-5 medium-2">
+					<ul>
+						<li><a href="#">our feed</a></li>
+						<li><a href="#">terms and conditions</a></li>
+						<li><a href="#">our privacy</a></li>
+					</ul>
+				</div>
+				<div class="cell medium-2">
+					<ul>
+						<li><a href="#">join us</a></li>
+						<li><a href="#">live support</a></li>
+					</ul>
+				</div>
+				<div class="cell medium-2 paymentMethods">
+					Payment Methods
+					<img src="./img/icons/creditCards.png">
+				</div>				
+			</div>
+		</footer>
+		
+		
+        </div> <!-- /grid-container -->
+                
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+		<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics code here -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
