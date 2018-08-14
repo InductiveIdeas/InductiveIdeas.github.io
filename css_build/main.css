@@ -128,6 +128,9 @@ a:hover {
 .product--sizes {
   font-size: 13px; }
 
+.product--size {
+  cursor: pointer; }
+
 .product--sizeSelected {
   font-size: 18px;
   color: #ff6e30;
