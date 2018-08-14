@@ -296,6 +296,7 @@ footer {
   .smallShow {
     display: block;
     position: fixed;
+    z-index: 1;
     bottom: 0;
     right: 0;
     background: #ff6e30;
