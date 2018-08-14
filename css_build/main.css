@@ -65,7 +65,7 @@ a:hover {
 .nav--main li, .nav--cart li {
   list-style-type: none;
   display: inline;
-  margin-left: 20px; }
+  margin-right: 20px; }
 
 .nav--main {
   margin-bottom: 0px;
